@@ -3,6 +3,9 @@ if($_POST['e1']<>"") // wenn das feld "eintrag" nicht leer ist
 {
     $handle = fopen ("gb.txt","a"); // gb.txt wird von php automatisch erzeugt
     fwrite ($handle, $_POST['e1']);
+    fwrite ($handle, $_POST['e2']);
+    fwrite ($handle, $_POST['e3']);
+    fwrite ($handle, $_POST['e4']);
     fwrite ($handle, "\r\n");
     fclose($handle);
     echo "Danke-Ihre Daten wurden gespeichert";
