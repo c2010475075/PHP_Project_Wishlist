@@ -5,11 +5,51 @@
     <title>$Title$</title>
     <link rel="icon" href="../3.0%20Webproject/images/Tabicon.PNG">
 
+<link rel="stylesheet" href="wishlist.css">
+    <link rel="stylesheet" href="../main/main.css">
 </head>
 <body>
+<header>
+    <a class="logo" href="../main/main.html"><img src="../../3.0%20Webproject/images/Logo_first.png" alt="logo"></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="wishlist.html">Create Wishlist</a></li>
+            <li><a href="myWishlist.html">myWishlist</a></li>
+            <li><a href="../about%20us/about%20us.html">About us</a></li>
+
+        </ul>
+    </nav>
+    <a class="cta" href="../../../../../xampp/htdocs/rest-api-authentication-example/rest-api-authentication-example/index.html">Login / Sign-up</a>
+    <p class="menu cta">Menu</p>
+</header>
+
+<div class="overlay">
+    <a class="close">&times;</a>
+    <div class="overlay__content">
+
+        <a href="myWishlist.html">Create Wishlist</a>
+        <a href="myWishlist.html">MyWishlist</a>
+        <a href="../about%20us/about%20us.html">About us</a>
+        <a href="../../../../../xampp/htdocs/rest-api-authentication-example/rest-api-authentication-example/index.html">Login</a>
+    </div>
+</div>
+<div id="introduction">
+    MY Wishlist
+</div>
+
 <form method="post" action="example3.php">
-    <input type="submit" name="button" id="button" value="my wishlist anzeigen"/>
+    <input type="submit" name="button" id="button" value="my wishlist anzeigen" style="background-color: #0088a9;
+    color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+margin-left: 500px;
+margin-right: 570px;
+width: 25%"  />
 
 </form>
+
 </body>
 </html>
